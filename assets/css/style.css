@@ -28,3 +28,26 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+
+.calculator{
+    width: 400px;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background-color: #DFDFDF;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #9E9E9E;
+}
